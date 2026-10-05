@@ -281,7 +281,7 @@ PrintStatsBox:
 	ret
 
 .StatsText:
-	db   "ATTACCO"
+	db   "ATACCO"
 	next "DIFESA"
 	next "VELOCITÀ"
 	next "SPECIALI@"

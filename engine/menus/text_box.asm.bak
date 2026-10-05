@@ -148,8 +148,8 @@ DisplayMoneyBox:
 
 
 
-
-
+CurrencyString:
+	db	
 
 DoBuySellQuitMenu:
 	ld a, [wStatusFlags5]
