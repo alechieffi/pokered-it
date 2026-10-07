@@ -1,11 +1,11 @@
-# Pokémon Versione Rossa e Blu [![Build Status][ci-badge]][ci]
+# Pokémon Edición Roja y Azul [![Build Status][ci-badge]][ci]
 
-This is a disassembly of Pokémon Versione Rossa e Blu.
+This is a disassembly of Pokémon Edición Roja and Azul, originally by Petros / klektron.
 
 It builds the following ROMs:
 
-* Pokemon - Versione Rossa (Italy) (SGB Enhanced).gb `sha1: 65B97CF8F2F1CFF711A6D08C6C894C8CE65CE522`
-* Pokemon - Versione Blu (Italy) (SGB Enhanced).gb `sha1: F69ED1A1332F04C24C7DB899A09019BB045FA8B3`
+* Pokemon - Edicion Roja (Spain) (SGB Enhanced).gb `sha1: fc17c5b904d551b1b908054ccd1c493f755f832a`
+* Pokemon - Edicion Azul (Spain) (SGB Enhanced).gb `sha1: 7715e7b133e8634df48918b9138374110212a108`
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
