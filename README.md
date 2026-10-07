@@ -4,8 +4,8 @@ This is a disassembly of Pokémon Versione Rossa and Blu.
 
 It builds the following ROMs:
 
-* Pokemon - Edicion Roja (Spain) (SGB Enhanced).gb `sha1: fc17c5b904d551b1b908054ccd1c493f755f832a`
-* Pokemon - Edicion Azul (Spain) (SGB Enhanced).gb `sha1: 7715e7b133e8634df48918b9138374110212a108`
+* Pokemon - Versione Rossa (Italy) (SGB Enhanced) `sha1: fc17c5b904d551b1b908054ccd1c493f755f832a`
+* Pokemon - Versione Blu (Italy) (SGB Enhanced).gb `sha1: 7715e7b133e8634df48918b9138374110212a108`
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
