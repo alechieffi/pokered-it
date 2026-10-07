@@ -541,7 +541,7 @@ ElectabuzzDexEntry:
 	text_end
 
 MagnetonDexEntry:
-	db "ALAMITA@"
+	db "CALAMITA@"
 	db 10
 	dw 600
 	text_far _MagnetonDexEntry

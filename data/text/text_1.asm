@@ -59,7 +59,7 @@ _MartSignText::
 
 _PokeCenterSignText::
 	text "Ricarica i tuoi"
-	line "#MON!"
+	line "#MON! "
 	para "CENTRO #MON"
 	done
 
@@ -81,18 +81,18 @@ _OaksAideHiText::
 	text "Ciao! Ti ricordi"
 	line "di me? Sono"
 	cont "l'ASSISTENTE del"
-	cont "PROF. OAK!"
+	cont "PROF.OAK!"
 
 	para "Se hai catturato"
 	line "@"
 	text_decimal hOaksAideRequirement, 1, 3
-	text "tipi di"
+	text " tipi di"
 	cont "#MON ti darò"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "!"
 
-	para "Allora, <PLAYER>,"
+	para "Allora, <PLAYER>, "
 	line "hai catturato"
 	cont "@"
 	text_decimal hOaksAideRequirement, 1, 3
@@ -123,7 +123,7 @@ _OaksAideComeBackText::
 	para "Quando avrai"
 	line "@"
 	text_decimal hOaksAideRequirement, 1, 3
-	text "tipi di"
+	text " tipi di"
 	cont "#MON torna"
 	cont "a prendere"
 	cont "@"
@@ -135,7 +135,8 @@ _OaksAideHereYouGoText::
 	text "Bene! Hai"
 	line "catturato @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
-	cont " tipi di #MON! "
+	text_start
+	cont "tipi di #MON!"
 	cont "Congratulazioni!"
 	
 	para "Tieni! Te lo"
@@ -151,8 +152,8 @@ _OaksAideGotItemText::
 
 _OaksAideNoRoomText::
 	text "Vedo che non hai"
-	line "più spazio per"
+	line "più spazio per "
 	cont "@"
 	text_ram wOaksAideRewardItemName
-	text "!@"
+	text "!"
 	done

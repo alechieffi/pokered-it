@@ -145,7 +145,7 @@ PrintPrizePrice:
 	ld c, 7
 	call TextBoxBorder
 	call UpdateSprites
-	hlcoord 13, 0
+	hlcoord 12, 0
 	ld de, .CoinString
 	call PlaceString
 	hlcoord 13, 1

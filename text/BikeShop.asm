@@ -64,8 +64,8 @@ _BikeShopMiddleAgedWomanText::
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "Queste BICI sono"
-	line "forti ma care"
+	text "Queste bici sono"
+	line "forti ma care!"
 	
 	done
 

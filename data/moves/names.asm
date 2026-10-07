@@ -2,7 +2,7 @@ MoveNames::
 	; in-battle "usa <move name>!" text can only fit 12 (MOVE_NAME_LENGTH - 2) characters
 	list_start MOVE_NAME_LENGTH - 1
 	li "LIBBRA"
-	li "COLPO KARATE"
+	li "COLPO-KARATE"
 	li "DOPPIASBERLA"
 	li "COMETAPUGNO"
 	li "MEGAPUGNO"
@@ -34,7 +34,7 @@ MoveNames::
 	li "FURIA"
 	li "PERFORCORNO"
 	li "AZIONE"
-	li "BODYSLAM"
+	li "BODY SLAM"
 	li "AVVOLGIBOTTA"
 	li "RIDUTTORE"
 	li "COLPO"

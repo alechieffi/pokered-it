@@ -1,6 +1,6 @@
 _AIBattleWithdrawText::
 	text_ram wTrainerName
-	text "riti-"
+	text " riti-"
 	line "ra @"
 	
 	text_ram wEnemyMonNick
@@ -50,7 +50,7 @@ _TradeWavesFarewellText::
 _TradeTransferredText::
 	text_ram wNameBuffer
 	text_start
-	line "è traferito."
+	line "è trasferito."
 	
 	done
 
@@ -78,7 +78,7 @@ _TradeforText::
 
 _PlaySlotMachineText::
 	text "Una slot machine!"
-	line "Vuoi giocare!"
+	line "Vuoi giocare?"
 	
 	done
 
@@ -109,7 +109,7 @@ _LinedUpText::
 	text "tris! Vinci"
 	line "@"
 	text_ram wStringBuffer
-	text " gettoni"
+	text " gettoni!"
 	done
 
 _NotThisTimeText::

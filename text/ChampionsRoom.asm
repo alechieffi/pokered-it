@@ -121,7 +121,7 @@ _ChampionsRoomOakDisappointedWithRivalText::
 	cont "perso di nuovo!"
 
 	para "<RIVAL>! Sai"
-	line "perchè hai perso?"
+	line "perché hai perso?"
 
 	para "Non hai dimostrato"
 	line "ai tuoi #MON"

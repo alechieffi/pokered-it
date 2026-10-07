@@ -1,5 +1,5 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Arrivederci"
+	text "Arrivederci!"
 
 	done
 
@@ -17,7 +17,7 @@ _UsedStrengthText::
 
 _CanMoveBouldersText::
 	text_ram wNameBuffer
-	text  "può"
+	text  " può"
 	line "muovere i massi."
 	prompt
 
@@ -63,7 +63,7 @@ _NotHealthyEnoughText::
 
 _NewBadgeRequiredText::
 	text "No! Ci vuole una"
-	line "nuova MEDAGLIA"
+	line "nuova MEDAGLIA!"
 
 	prompt
 
@@ -106,6 +106,6 @@ _BoxIsFullText::
 	cont "accetta più!"
 
 	para "Cambia il BOX al"
-	line "CENTRO #MON"
+	line "CENTRO #MON!"
 
 	done

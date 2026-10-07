@@ -14,7 +14,7 @@ _CeladonChiefHouseRocketText::
 	done
 
 _CeladonChiefHouseSailorText::
-	text "¡Non toccare il"
+	text "Non toccare il"
 	line "poster al"
 	cont "CASINÒ!"
 

@@ -64,7 +64,7 @@ CeladonMartRoofScript_GiveDrinkToGirl:
 	call AddNTimes
 	dec l
 	ld b, l
-	ld c, 12
+	ld c, 13
 	hlcoord 0, 0
 	call TextBoxBorder
 	call UpdateSprites

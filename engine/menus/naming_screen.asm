@@ -469,7 +469,7 @@ PrintNamingText:
 	pop af
 	ld [wNamedObjectIndex], a
 	call GetMonName
-	hlcoord 4, 2
+	hlcoord 4, 1
 	call PlaceString
 	hlcoord 1, 3
 	ld de, NicknameTextString

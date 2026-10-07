@@ -123,7 +123,7 @@ NullChar::
 	dec de
 	ret
 
-TextIDErrorText:: ; "[hTextID] ERROR."
+TextIDErrorText:: ; "[hTextID] ERRORE."
 	text_far _TextIDErrorText
 	text_end
 

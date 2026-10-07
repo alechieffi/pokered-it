@@ -36,7 +36,7 @@ DisplayDiploma::
 	pop bc
 	dec c
 	jr nz, .placeTextLoop
-	hlcoord 11, 4
+	hlcoord 12, 4
 	ld de, wPlayerName
 	call PlaceString
 	farcall DrawPlayerCharacter
@@ -110,7 +110,7 @@ DiplomaCongrats:
 	db   "Congratulazioni!"
 	next "Questo diploma"
 	next "certifica che"
-	next "il tuo POKéDEX"
+	next "il tuo #DEX"
 	next "è completo.@"
 
 DiplomaGameFreak:

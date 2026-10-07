@@ -1,10 +1,9 @@
 _PokemartGreetingText::
 	text "Salve! Posso"
-	next "esserti d'aiuto?"
+	next "essere d'aiuto?"
 	done
 
 _PokemonFaintedText::
-
 	text_ram wNameBuffer
 	text_start
 	line "esausto!"
@@ -12,7 +11,7 @@ _PokemonFaintedText::
 
 _PlayerBlackedOutText::
 	text "<PLAYER> non ha più"
-	line "#MON utili"
+	line "#MON utili!"
 
 
 	para "<PLAYER> è"
@@ -88,7 +87,7 @@ _PokemartAnythingElseText::
 _LearnedMove1Text::
 	
 	text_ram wLearnMoveMonName
-	text "impara"
+	text " impara"
 	line "@"
 
 	text_ram wStringBuffer
@@ -128,7 +127,7 @@ _TryingToLearnText::
 
 	para "Ma @"
 	text_ram wLearnMoveMonName
-	text "non"
+	text " non"
 	line "può imparare più"
 	cont "di 4 mosse!"
 
@@ -163,7 +162,7 @@ _ForgotAndText::
 
 _HMCantDeleteText::
 	text "Le MN non sono"
-	line "eliminabili"
+	line "eliminabili!"
 
 	prompt
 
@@ -174,7 +173,7 @@ _PokemonCenterWelcomeText::
 
 	para "Rimettiamo in"
 	line "sesto i tuoi"
-	cont "#MON"
+	cont "#MON!"
 	prompt
 
 _ShallWeHealYourPokemonText::

@@ -19,7 +19,7 @@ VendingMachineMenu::
 	set BIT_NO_TEXT_DELAY, [hl]
 	hlcoord 0, 3
 	ld b, 8
-	ld c, 12
+	ld c, 13
 	call TextBoxBorder
 	call UpdateSprites
 	hlcoord 2, 5
@@ -91,9 +91,9 @@ DrinkText:
 	next "ESCI@"
 
 DrinkPriceText:
-	db   "200$"
-	next "300$"
-	next "350$"
+	db   "$200"
+	next "$300"
+	next "$350"
 	next "@"
 
 VendingMachineText4:

@@ -59,7 +59,7 @@ _AlreadyKnowsText::
 
 _ConnectCableText::
 	text "OK! Connetti il"
-	line "cavo così"
+	line "cavo così!"
 	prompt
 
 _TradedForText::
@@ -173,7 +173,7 @@ _WrongMon3Text::
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "Quandi ne hai uno"
+	para "Quando ne hai uno"
 	line "scambialo con me!"
 	done
 

@@ -16,7 +16,7 @@ _AgathaBeforeBattleText::
 	line "sistemare il suo"
 	cont "#DEX! Ma ha"
 	cont "torto! I #MON"
-	cont "devono lottare"
+	cont "devono lottare!"
 
 
 	para "<PLAYER>! Ti farò"

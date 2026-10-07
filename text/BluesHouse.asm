@@ -2,7 +2,7 @@ _BluesHouseDaisyRivalAtLabText::
 	text "Ciao <PLAYER>!"
 	line "<RIVAL> è"
 	cont "al laboratorio"
-	cont "del nonno!"
+	cont "del nonno."
 	done
 
 _BluesHouseDaisyOfferMapText::
@@ -14,7 +14,7 @@ _BluesHouseDaisyOfferMapText::
 
 _GotMapText::
 	text "<PLAYER> riceve la"
-	line "MAPPA delle CITTÀ"
+	line "MAPPA delle CITTÀ@"
 	
 	
 	text_end
@@ -33,7 +33,7 @@ _BluesHouseDaisyUseMapText::
 
 _BluesHouseDaisyWalkingText::
 	text "I #MON sono"
-	line "essere viventi!"
+	line "esseri viventi!"
 	cont "Falli riposare"
 	cont "se sono stanchi!"
 	done

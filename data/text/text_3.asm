@@ -16,7 +16,7 @@ _GameSavedText::
 _OlderFileWillBeErasedText::
 	text "Cancella il file"
 	line "precedente per"
-	cont "Salvare questo?"
+	cont "salvare questo?"
 	done
 
 _WhenYouChangeBoxText::
@@ -48,15 +48,14 @@ _IntoText::
 	done
 
 _StoppedEvolvingText::
-	text "Hm? ¡@"
+	text "Hm? @"
 	text_ram wStringBuffer
-	text_start
-	line "non"
-	cont "si evolve più!"
+	text " non"
+	line "si evolve più!"
 	prompt
 
 _IsEvolvingText::
-	text "Ehi!@"
+	text "Ehi! @"
 	text_ram wStringBuffer
 	text_start
 	line "si evolve!"
@@ -100,7 +99,7 @@ _FireDefrostedText::
 _MonsStatsRoseText::
 	text "Cresce @"
 	text_ram wStringBuffer
-	text_start " di"
+	text " di"
 	line "<USER>@"
 	
 	text_end
@@ -213,7 +212,7 @@ _ButItFailedText::
 
 _DidntAffectText::
 	text "Non ha effetto su"
-	line "<TARGET>!"
+	line "<TARGET>"
 	prompt
 
 _IsUnaffectedText::
@@ -269,7 +268,7 @@ _HitWithRecoilText::
 
 _ConvertedTypeText::
 	text "Passa al tipo di"
-	line "<TARGET>!"
+	line "<TARGET>"
 	prompt
 
 _StatusChangesEliminatedText::

@@ -1,6 +1,6 @@
 _ItemUseBallText00::
 	text "Ha schivato la"
-	line "BALL!!"
+	line "BALL!"
 
 	para "Questo #MON"
 	line "non può essere"
@@ -55,8 +55,7 @@ _ItemUseBallText08::
 _ItemUseBallText06::
 	text "Aggiornamento"
 	line "#DEX per"
-
-
+	cont "@"
 	text_ram wEnemyMonNick
 	text "!@"
 	text_end
@@ -82,7 +81,7 @@ _VitaminStatRoseText::
 	prompt
 
 _VitaminNoEffectText::
-	text "Non avrá alcun"
+	text "Non avrà alcun"
 	line "effetto."
 	prompt
 
@@ -100,7 +99,7 @@ _PlayedFluteNoEffectText::
 	text "Ha suonato il"
 	line "# FLAUTO."
 
-	para "È una melodía"
+	para "È una melodia"
 	line "orecchiabile!"
 	prompt
 
@@ -135,7 +134,7 @@ _ItemfinderFoundNothingText::
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "¿Aumenta PP di"
+	text "Aumenta PP di"
 	line "quale tecnica?"
 	done
 
@@ -207,7 +206,7 @@ _ItemUseNotTimeText::
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "Non puoi usarlo"
+	text "Non puoi usarlo,"
 	line "non è tuo!"
 	prompt
 
@@ -235,7 +234,7 @@ _NoSurfingHereText::
 	line "@"
 
 	text_ram wNameBuffer
-	text "qui!"
+	text " qui!"
 	prompt
 
 _BoxFullCannotThrowBallText::

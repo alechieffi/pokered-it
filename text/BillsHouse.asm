@@ -59,9 +59,9 @@ _BillsHouseBillThankYouText::
 
 _SSTicketReceivedText::
 	text "<PLAYER> riceve"
-	line "il "
+	line "il @"
 	text_ram wStringBuffer
-	text "!"
+	text "!@"
 	text_end
 
 
