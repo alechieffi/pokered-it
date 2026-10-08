@@ -79,7 +79,7 @@ IF DEF(_RED)
 	db -6, "VERSIONE ROSSA@"
 ENDC
 IF DEF(_BLUE)
-	db -6, "VERSIONE BLU@"
+	db -5, "VERSIONE BLU@"
 ENDC
 CredTajiri:
 	db -6, "SATOSHI TAJIRI@"

@@ -26,6 +26,7 @@ PrepareTitleScreen::
 	ld [wAudioSavedROMBank], a
 
 DisplayTitleScreen:
+IF DEF(_RED)
 	call GBPalWhiteOut
 	ld a, $1
 	ldh [hAutoBGTransferEnabled], a
@@ -60,12 +61,53 @@ DisplayTitleScreen:
 	ld a, BANK(PokemonLogoGraphics)
 	call FarCopyData2          ; second chunk
 	ld hl, Version_GFX
-	ld de, vChars2 tile $60 + (10 tiles - (Version_GFXEnd - Version_GFX) * 2) / 2
+	ld de, vChars2 tile $60 + (VERSION_TILES tiles - (Version_GFXEnd - Version_GFX) * 2) / 2
 	ld bc, Version_GFXEnd - Version_GFX
 	ld a, BANK(Version_GFX)
 	call FarCopyDataDouble
 	call ClearBothBGMaps
-
+ENDC
+IF DEF(_BLUE)
+call GBPalWhiteOut
+	ld a, $1
+	ldh [hAutoBGTransferEnabled], a
+	xor a
+	ldh [hTileAnimations], a
+	ldh [hSCX], a
+	ld a, $40
+	ldh [hSCY], a
+	ld a, $90
+	ldh [hWY], a
+	call ClearScreen
+	call DisableLCD
+	call LoadFontTilePatterns
+	ld hl, NintendoCopyrightLogoGraphics
+	ld de, vTitleLogo2 tile 16
+	ld bc, 5 tiles
+	ld a, BANK(NintendoCopyrightLogoGraphics)
+	call FarCopyData2
+	ld hl, GameFreakLogoGraphics
+	ld de, vTitleLogo2 tile (16 + 5)
+	ld bc, 10 tiles
+	ld a, BANK(GameFreakLogoGraphics)
+	call FarCopyData2
+	ld hl, PokemonLogoGraphics
+	ld de, vTitleLogo
+	ld bc, $60 tiles
+	ld a, BANK(PokemonLogoGraphics)
+	call FarCopyData2          ; first chunk
+	ld hl, PokemonLogoGraphics tile $60
+	ld de, vTitleLogo2
+	ld bc, $10 tiles
+	ld a, BANK(PokemonLogoGraphics)
+	call FarCopyData2          ; second chunk
+	ld hl, Version_GFX
+	ld de, vChars2 tile $61 + (VERSION_TILES tiles - (Version_GFXEnd - Version_GFX) * 2) / 2
+	ld bc, Version_GFXEnd - Version_GFX
+	ld a, BANK(Version_GFX)
+	call FarCopyDataDouble
+	call ClearBothBGMaps
+ENDC
 ; place tiles for pokemon logo (except for the last row)
 	hlcoord 2, 1
 	ld a, $80
@@ -403,10 +445,10 @@ IF DEF(_RED)
 	jp PlaceString
 ENDC
 IF DEF(_BLUE)
-hlcoord 7, 8
+    hlcoord 7, 8
 	ld de, VersionOnTitleScreenText
 	jp PlaceString
-	ENDC
+ENDC
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText:
 IF DEF(_RED)
